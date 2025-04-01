@@ -12,7 +12,7 @@ This Python project implements a classic Hangman game using the Tkinter library 
 * **Hangman Image Display:** Updates the hangman image based on the number of incorrect guesses.
 * **Win/Lose Messages:** Displays appropriate messages upon winning or losing the game.
 * **Play Again Option:** Prompts the user to play another round after each game.
-* **Hover effect on buttons:** changes the button color when the mouse is over it.
+* **Hover Effect on Buttons:** changes the button color when the mouse is over it.
 * **Clean Reset:** resets the game state completely for the next game.
 
 ## Prerequisites
