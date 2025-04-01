@@ -15,7 +15,3 @@ This Python project implements a classic Hangman game using the Tkinter library 
 * **Hover Effect on Buttons:** changes the button color when the mouse is over it.
 * **Clean Reset:** resets the game state completely for the next game.
 
-## Prerequisites
-
-* Python 3.x
-* Tkinter (usually included with Python)
