@@ -1,2 +1,21 @@
-# hangman_gui
-I previously made a word guessing game that was played in the terminal, then I repurposed some of that code to make this game. Rather than keying in input, the user presses the button of the letter they want to guess and the progress updates accordingly. With each wrong guess, the image of the hangman updates to show another body part. Once the user wins the game or runs out of guesses, a messagebox pops up prompting the user to start another round or end the game. Each round within a single session will be a different word as long as the number of rounds played is less than or equal to the number of words in the file referenced.
+# Hangman Game - Python Tkinter
+
+## Description
+
+This Python project implements a classic Hangman game using the Tkinter library for the graphical user interface. The game randomly selects a word from a text file and allows the user to guess letters. It displays the progress of the word, updates the hangman image based on incorrect guesses, and provides win/lose messages.
+
+## Features
+
+* **Graphical User Interface (GUI):** Built with Tkinter, providing an interactive and user-friendly experience.
+* **Random Word Selection:** Reads words from a `words.txt` file and randomly selects one for each game.
+* **Letter Guessing:** Allows users to guess letters through clickable buttons.
+* **Hangman Image Display:** Updates the hangman image based on the number of incorrect guesses.
+* **Win/Lose Messages:** Displays appropriate messages upon winning or losing the game.
+* **Play Again Option:** Prompts the user to play another round after each game.
+* **Hover effect on buttons:** changes the button color when the mouse is over it.
+* **Clean Reset:** resets the game state completely for the next game.
+
+## Prerequisites
+
+* Python 3.x
+* Tkinter (usually included with Python)
